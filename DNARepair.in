@@ -1,0 +1,17 @@
+/run/initialize
+
+/gun/particle gamma
+/gun/particle e-
+#/gun/particle proton
+#/gun/particle hydrogen
+#/gun/particle alpha
+#/gun/particle alpha+
+#/gun/particle helium
+/gun/particle ion
+/gun/ion 6 12 6
+/gun/ion 8 16 8
+/gun/ion 14 28 14
+/gun/ion 26 56 26
+/gun/energy 56000 MeV  # 1000*56 MeV === 1000 MeV/nucleon
+
+/run/beamOn 1
